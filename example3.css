@@ -1,0 +1,43 @@
+/* General styles for the form container */
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"] {
+    background-color: #ffe4b5; 
+}
+
+input[type="email"] {
+    background-color: #add8e6; 
+}
+
+textarea {
+    background-color: #98fb98;
+}
+.form-button{
+    padding: top 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}

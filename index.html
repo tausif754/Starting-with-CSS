@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting with CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <!-- Internal CSS -->
+    <style>
+      /* Internal CSS for div with id "box1" */
+      #box1 {
+        background-color: yellow;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS for div with id "box2" -->
+    <div id="box1">
+      <h2>Internal CSS</h2>
+      <p>This div is styled using internal CSS.</p>
+    </div>
+
+    <div
+      id="box2"
+      style="background-color: lightblue; padding: 20px; text-align: center"
+    >
+      <h2>Inline CSS</h2>
+      <p>This div is styled using inline CSS.</p>
+    </div>
+    <!-- here i am using external CSS -->
+    <div id="box3" class="external-style">
+      <h2>External CSS</h2>
+      <p>This div is styled using an external CSS file.</p>
+    </div>
+  </body>
+</html>
